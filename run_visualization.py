@@ -7,7 +7,7 @@ from pathlib import Path
 from tkinter import messagebox, ttk
 
 ROOT = Path(__file__).resolve().parent
-SCRIPT_DIRS = [ROOT / "mesh", ROOT / "point_cloud"]
+SCRIPT_DIRS = [ROOT / "src"/ "scripts" / "mesh", ROOT / "src" / "scripts" / "point_cloud"]
 
 
 def get_example_scripts():

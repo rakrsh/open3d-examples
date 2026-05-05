@@ -21,7 +21,21 @@ python run_visualization.py
 ### Requirements
 
 - Python 3.8+
-- Open3D installed
+- `uv` installed for dependency management
+
+```bash
+python -m pip install uv
+```
+
+### Install dependencies with uv
+
+```bash
+uv sync
+```
+
+This uses the project `pyproject.toml` manifest to install required packages.
+
+### Install Open3D manually
 
 ```bash
 pip install open3d
