@@ -9,7 +9,9 @@ requires-python = ">=3.12"
 dependencies = [
     "numpy>=1.26",
     "open3d>=0.18",
-    "matplotlib>=3.8"
+    "matplotlib>=3.8",
+    "flask>=3.0.0",
+    "flask-cors>=4.0.0"
 ]
 
 [build-system]

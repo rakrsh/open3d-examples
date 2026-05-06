@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import '../styles/App.css'
+import './styles/App.css'
 import Header from './components/Header'
 import ExamplesList from './components/ExamplesList'
 import ExampleDetail from './components/ExampleDetail'

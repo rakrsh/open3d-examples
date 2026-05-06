@@ -1,3 +1,6 @@
+# Auto-generated from pyproject.toml
+# Use: uv sync or pip install -e . to install dependencies
+
 numpy>=1.26
 open3d>=0.18
 matplotlib>=3.8
