@@ -943,7 +943,7 @@ requires-dist = [
     { name = "flask-cors", specifier = ">=4.0.0" },
     { name = "matplotlib", specifier = ">=3.8" },
     { name = "numpy", specifier = ">=1.26" },
-    { name = "open3d", specifier = ">=0.18" },
+    { name = "open3d", specifier = ">=0.19" },
 ]
 
 [package.metadata.requires-dev]
